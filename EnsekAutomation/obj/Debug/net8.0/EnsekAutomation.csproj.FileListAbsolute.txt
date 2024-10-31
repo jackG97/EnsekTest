@@ -1,0 +1,5 @@
+C:\Users\jackg\source\repos\EnsekAutomation\obj\Debug\net8.0\EnsekAutomation.csproj.AssemblyReference.cache
+C:\Users\jackg\source\repos\EnsekAutomation\obj\Debug\net8.0\EnsekAutomation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jackg\source\repos\EnsekAutomation\obj\Debug\net8.0\EnsekAutomation.AssemblyInfoInputs.cache
+C:\Users\jackg\source\repos\EnsekAutomation\obj\Debug\net8.0\EnsekAutomation.AssemblyInfo.cs
+C:\Users\jackg\source\repos\EnsekAutomation\obj\Debug\net8.0\EnsekAutomation.csproj.CoreCompileInputs.cache
