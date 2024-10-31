@@ -12,6 +12,7 @@ namespace EnsekAutomation.POM
 {
     public class BuyEnergyPage
     {
+        //  variables - webdriver, reset button, gas field, electricity field, oil field, Buy energy units button, purchase complete message
         private IWebDriver driver;
         By ResetButton = By.XPath("//input[contains(name, 'Reset')]");
         By GasField = By.XPath("//input[contains(name, 'energyType.AmountPurchased')]");
@@ -27,12 +28,14 @@ namespace EnsekAutomation.POM
             this.driver = driver;
         }
 
+        //the method below Selects the reset button
         private void SelectResetButton()
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             wait.Until(ExpectedConditions.ElementExists(ResetButton)).Click();
         }
 
+        //the method below is to buy gas units
         private void BuyUnitsOfEnergy()
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));

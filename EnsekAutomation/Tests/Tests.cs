@@ -13,14 +13,18 @@ namespace EnsekAutomation.Tests
 
     public class Tests
     {
+
+        //webdriver instance
         IWebDriver driver = new ChromeDriver();
 
+        //method below opens the application
         private void OpenApplication(IWebDriver driver)
         {
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl('https://ensekautomationcandidatetest.azurewebsites.net/');
         }
 
+        //method below closes the application
         private void CloseApplication(IWebDriver driver)
         {
             driver.Close();
@@ -39,7 +43,7 @@ namespace EnsekAutomation.Tests
             CloseApplication();
         }
 
-        // The second test case is for Buying energy of units
+        // The second test case is for buying units of energy
         [Test]
         public void BuyUnitsOfEnergy()
         {
